@@ -1,0 +1,27 @@
+{
+    "name": "rest-full/mapsApi",
+    "description": "use the google maps api both to connect directly through php code with json and through javascript to see.",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "José Luis",
+            "email": "simaowebsolutions@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Restfull\\": "src",
+            "Example\\": "example"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "rest-full/container": "1.*",
+        "rest-full/search": "1.*",
+        "matthiasmullie/minify": "1.*",
+        "ext-json": "*",
+        "ext-curl": "*"
+    }
+}
