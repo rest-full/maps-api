@@ -1,5 +1,5 @@
 {
-    "name": "rest-full/mapsApi",
+    "name": "rest-full/maps-api",
     "description": "use the google maps api both to connect directly through php code with json and through javascript to see.",
     "type": "library",
     "minimum-stability": "stable",
